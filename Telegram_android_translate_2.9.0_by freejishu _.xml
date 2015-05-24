@@ -32,7 +32,7 @@
   <string name="NoResult">没有结果</string>
   <string name="NoChats">暂时还没有对话...不如创建一个？</string>
   <string name="NoChatsHelp">点击右下角的新建聊天按钮可以开始聊天，\n点击左上角菜单按钮查看更多选项。</string>
-  <string name="WaitingForNetwork">等待网络连接...</string>
+  <string name="WaitingForNetwork">没有网络连接，不如尝试检查下你的网络？</string>
   <string name="Connecting">连接中...</string>
   <string name="Updating">刷新中...</string>
   <string name="NewSecretChat">新建加密对话</string>
@@ -664,11 +664,11 @@
   <string name="items_many">%1$d 项目</string>
   <string name="items_other">%1$d 项目</string>
   <string name="FromChats_zero">没有聊天记录</string>
-  <string name="FromChats_one">有 %1$d 条聊天记录</string>
-  <string name="FromChats_two">有 %1$d 条聊天记录</string>
-  <string name="FromChats_few">有 %1$d 条聊天记录</string>
-  <string name="FromChats_many">有 %1$d 条聊天记录</string>
-  <string name="FromChats_other">有 %1$d 条聊天记录</string>
+  <string name="FromChats_one">来自 %1$d 个对话</string>
+  <string name="FromChats_two">来自 %1$d 个对话</string>
+  <string name="FromChats_few">来自 %1$d 个对话</string>
+  <string name="FromChats_many">来自 %1$d 个对话</string>
+  <string name="FromChats_other">来自 %1$d 个对话</string>
   <string name="Seconds_zero">%1$d 秒</string>
   <string name="Seconds_one">%1$d 秒</string>
   <string name="Seconds_two">%1$d 秒</string>
@@ -729,6 +729,12 @@
   <string name="Meters_few">%1$d 米</string>
   <string name="Meters_many">%1$d 米</string>
   <string name="Meters_other">%1$d 米</string>
+  <string name="Stickers_zero">%1$d 个大表情</string>
+  <string name="Stickers_one">%1$d 个大表情</string>
+  <string name="Stickers_two">%1$d 个大表情</string>
+  <string name="Stickers_few">%1$d 个大表情</string>
+  <string name="Stickers_many">%1$d 个大表情</string>
+  <string name="Stickers_other">%1$d 个大表情</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d 条来自转发的消息</string>
   <string name="ForwardedMessage_one">1 条来自转发的消息</string>
