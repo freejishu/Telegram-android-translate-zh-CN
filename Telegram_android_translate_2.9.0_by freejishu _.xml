@@ -243,7 +243,7 @@
   <!--stickers view-->
   <string name="Stickers">大表情</string>
   <string name="GeniusStickerPackName">思想的力量</string>
-  <string name="StickersInfo">欢迎艺术家们使用我们的 @stickers 大表情机器人.\n\n你可以通过这个机器人提交你自己的大表情并且分享给你的家人和朋友。\n 只需要点击大表情然后选择 \"添加大表情\"就可以了.</string>
+  <string name="StickersInfo">欢迎\"艺术家\"们使用我们的 @stickers  大表情机器人添加属于你自己的大表情.\n你可以通过这个机器人提交你自己的大表情并且分享给你的家人和朋友。\n 只需要点击你需要添加的大表情然后选择 \"添加大表情\"就可以了.</string>
   <string name="AddStickers">添加大表情</string>
   <string name="AddToStickers">添加到大表情</string>
   <string name="AddStickersNotFound">没有找到这个大表情</string>
@@ -573,7 +573,7 @@
   <string name="AttachLocation">位置</string>
   <string name="AttachContact">联系人</string>
   <string name="AttachDocument">文件</string>
-  <string name="AttachSticker">贴图</string>
+  <string name="AttachSticker">大表情</string>
   <string name="AttachAudio">语音</string>
   <string name="FromYou">您</string>
   <string name="ActionTakeScreenshootYou">您截了一张图！</string>
