@@ -118,7 +118,7 @@
   <string name="SlideToCancel">滑动以取消</string>
   <string name="SaveToDownloads">保存到下载</string>
   <string name="ShareFile">分享</string>
-  <string name="ApplyLocalizationFile">使用本地化文件</string>
+  <string name="ApplyLocalizationFile">这是一个翻译文件，所以...</string>
   <string name="UnsupportedAttachment">不支持的附件</string>
   <string name="SetTimer">设置阅后即焚计时器</string>
   <string name="ServiceNotifications">服务通知</string>
