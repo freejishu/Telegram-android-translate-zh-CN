@@ -139,7 +139,7 @@
   <string name="NotificationMessageMap">%1$s 给您发送了一个位置</string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
   <string name="NotificationMessageAudio">%1$s 给您发送了一段语音</string>
-  <string name="NotificationMessageSticker">%1$s 给你发送了一个贴图</string>
+  <string name="NotificationMessageSticker">%1$s 给你发送了一个大表情</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s 发送了一条消息到 %2$s 群组</string>
   <string name="NotificationMessageGroupPhoto">%1$s 发送了一张图片到 %2$s 群组</string>
@@ -148,7 +148,7 @@
   <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送该文件到群组 %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s 发送了一段语音到 %2$s 群组</string>
-  <string name="NotificationMessageGroupSticker">%1$s 发送该贴图到群组 %2$s</string>
+  <string name="NotificationMessageGroupSticker">%1$s 发送了一个大表情到 %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s 邀请您加入 %2$s 群组</string>
   <string name="NotificationEditedGroupName">%1$s 编辑了%2$s 群组的名称</string>
   <string name="NotificationEditedGroupPhoto">%1$s 编辑了 %2$s 群组的图片</string>
@@ -317,8 +317,8 @@
   <string name="SystemDefault">系统默认</string>
   <string name="SettingsDefault">默认设置</string>
   <string name="AutomaticMediaDownload">自动下载媒体文件</string>
-  <string name="WhenUsingMobileData">使用移动数据流量时</string>
-  <string name="WhenConnectedOnWiFi">接入 WiFi 时</string>
+  <string name="WhenUsingMobileData">使用2G/3G/4G时</string>
+  <string name="WhenConnectedOnWiFi">使用 WiFi 时</string>
   <string name="WhenRoaming">漫游时</string>
   <string name="NoMediaAutoDownload">无</string>
   <string name="SaveToGallerySettings">保存到相册</string>
@@ -386,7 +386,7 @@
   <!--map view-->
   <string name="Map">地图</string>
   <string name="Satellite">卫星</string>
-  <string name="Hybrid">混合</string>
+  <string name="Hybrid">更多</string>
   <string name="MetersAway">米以外</string>
   <string name="KMetersAway">千米以外</string>
   <string name="SendLocation">发送你的位置</string>
