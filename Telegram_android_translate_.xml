@@ -96,6 +96,7 @@
   <string name="ChatLocation">位置</string>
   <string name="ChatVideo">视频</string>
   <string name="ChatDocument">文件</string>
+  <string name="ChatCamera">相机</string>
   <string name="NoMessages">暂时还没有消息...</string>
   <string name="ForwardedMessage">已转发的消息</string>
   <string name="From">来自</string>
@@ -104,7 +105,7 @@
   <string name="TypeMessage">输入消息</string>
   <string name="ShareMyContactInfo">展示我的信息</string>
   <string name="AddToContacts">添加为联系人</string>
-  <string name="EncryptedPlaceholderTitleIncoming">%s 邀请您进入加密对话。</string>
+  <string name="EncryptedPlaceholderTitleIncoming">%s 已经邀请您进入加密对话。</string>
   <string name="EncryptedPlaceholderTitleOutgoing">你邀请的 %s 已经进入加密对话。</string>
   <string name="EncryptedDescriptionTitle">加密对话：</string>
   <string name="EncryptedDescription1">使用 端到端 加密</string>
@@ -125,6 +126,7 @@
   <string name="GettingLinkInfo">获取链接信息...</string>
   <string name="OpenInBrowser">使用浏览器打开这个链接</string>
   <string name="CopyUrl">复制网址(URL)</string>
+  <string name="SendItems">发送 %1$s</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -242,13 +244,12 @@
   <string name="ErrorOccurred">发生了一个错误。</string>
   <!--stickers view-->
   <string name="Stickers">大表情</string>
-  <string name="GeniusStickerPackName">思想的力量</string>
   <string name="StickersInfo">欢迎\"艺术家\"们使用我们的 @stickers  大表情机器人添加属于你自己的大表情.\n你可以通过这个机器人提交你自己的大表情并且分享给你的家人和朋友。\n 只需要点击你需要添加的大表情然后选择 \"添加大表情\"就可以了.</string>
   <string name="AddStickers">添加大表情</string>
-  <string name="AddToStickers">添加到大表情</string>
+  <string name="AddToStickers">添加到大表情集</string>
   <string name="AddStickersNotFound">没有找到这个大表情</string>
   <string name="StickersRemoved">移除大表情</string>
-  <string name="AddStickersInstalled">添加一个新的大表情</string>
+  <string name="AddStickersInstalled">新的大表情已经添加</string>
   <string name="StickersHide">隐藏</string>
   <string name="StickersShow">显示</string>
   <string name="StickersShare">分享</string>
@@ -426,7 +427,7 @@
   <string name="Blur">模糊</string>
   <string name="BlurOff">关闭模糊</string>
   <string name="BlurLinear">线性模糊</string>
-  <string name="BlurRadial">径向模糊</string>
+  <string name="BlurRadial">放射性模糊</string>
   <string name="AreYouSureDeletePhoto">你确定要删除这个图片吗？</string>
   <string name="AreYouSureDeleteVideo">你确定要删除这个视频吗？</string>
   <string name="DiscardChanges">确定放弃更改？</string>
@@ -525,6 +526,16 @@
   <string name="EditedVideo">编辑过的视频</string>
   <string name="SendingVideo">正在发送视频……</string>
   <string name="CompressVideo">压缩视频</string>
+  <!--bot-->
+  <string name="Bot">接口</string>
+  <string name="BotShare">分享</string>
+  <string name="BotInvite">加入群组</string>
+  <string name="BotSettings">设置</string>
+  <string name="BotHelp">帮助</string>
+  <string name="BotStatusRead">具有读取消息权限</string>
+  <string name="BotStatusCantRead">没有读取消息权限</string>
+  <string name="BotInfoTitle">本接口作用</string>
+  <string name="BotStart">开始</string>
   <!--button titles-->
   <string name="Next">下一步</string>
   <string name="Back">返回</string>
@@ -581,7 +592,6 @@
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">无效的手机号码</string>
   <string name="CodeExpired">验证码已过期，请重新登录</string>
-  <string name="FloodWait">尝试次数过多，请稍后再试</string>
   <string name="FloodWaitTime">尝试次数过多，请在 %1$s 之后再试 </string>
   <string name="FloodWait">尝试次数过多，请稍后再试</string>
   <string name="InvalidCode">无效的验证码</string>
@@ -589,10 +599,14 @@
   <string name="InvalidLastName">无效的姓氏</string>
   <string name="Loading">载入中……</string>
   <string name="NoPlayerInstalled">没有可用的视频播放器，请先安装</string>
+  <string name="NoMailInstalled">请发送电子邮件到 sms@telegram.org 告诉我们您遇到的问题。</string>
   <string name="NoHandleAppInstalled">您没有安装可执行 \'%1$s\' 类型文件的软件，请先安装以继续。</string>
   <string name="InviteUser">该用户还未加入Telegram，是否发送邀请？</string>
   <string name="AreYouSure">您确定吗？</string>
-  <string name="AddToTheGroup">要将 %1$s 添加到小组吗？\n\n转发给他的最近消息数：</string>
+  <string name="AddToTheGroupTitle">将 %1$s 加入到 %2$s 群组？</string>
+  <string name="AddToTheGroupForwardCount">转发给他的最近消息数</string>
+  <string name="AddToTheGroup">将 %1$s 添加到群组？</string>
+  <string name="UserAlreadyInGroup">此用户已是本群组成员</string>
   <string name="ForwardMessagesTo">转发信息给%1$s？</string>
   <string name="SendMessagesTo">要把消息发送给 %1$s 吗？</string>
   <string name="AreYouSureLogout">您确定要注销吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天。</string>
@@ -610,6 +624,8 @@
   <string name="SendMessagesToGroup">要发送消息给 %1$s 吗？</string>
   <string name="ForwardMessagesToGroup">要转发消息给 %1$s 吗？</string>
   <string name="FeatureUnavailable">抱歉，该功能在您的国家暂时不可用。</string>
+  <string name="NoUsernameFound">没有使用这个昵称的 Telegram 账号。</string>
+  <string name="BotCantJoinGroups">此接口账号无法加入群组。</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
   <string name="Page2Title">快速</string>
@@ -627,7 +643,7 @@
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> 的信息经过高强度加密<![CDATA[<br/>]]>并且支持阅后即焚。</string>
   <string name="StartMessaging">开始聊天</string>
   <!--plural-->
-  <string name="Online_zero">%1$d 在线</string>
+  <string name="Online_zero">无人在线</string>
   <string name="Online_one">%1$d 个在线</string>
   <string name="Online_two">%1$d 个在线</string>
   <string name="Online_few">%1$d 个在线</string>
@@ -657,12 +673,12 @@
   <string name="messages_few">%1$d 条消息</string>
   <string name="messages_many">%1$d 条消息</string>
   <string name="messages_other">%1$d 条消息</string>
-  <string name="items_zero">no 项目</string>
-  <string name="items_one">%1$d 项目</string>
-  <string name="items_two">%1$d 项目</string>
-  <string name="items_few">%1$d 项目</string>
-  <string name="items_many">%1$d 项目</string>
-  <string name="items_other">%1$d 项目</string>
+  <string name="items_zero">没有选中项目</string>
+  <string name="items_one">选中一个项目</string>
+  <string name="items_two">选中两个项目</string>
+  <string name="items_few">选中 %1$d 个项目</string>
+  <string name="items_many">选中 %1$d 个项目</string>
+  <string name="items_other">选中 %1$d 个项目</string>
   <string name="FromChats_zero">没有聊天记录</string>
   <string name="FromChats_one">来自 %1$d 个对话</string>
   <string name="FromChats_two">来自 %1$d 个对话</string>
@@ -735,8 +751,14 @@
   <string name="Stickers_few">%1$d 个大表情</string>
   <string name="Stickers_many">%1$d 个大表情</string>
   <string name="Stickers_other">%1$d 个大表情</string>
+  <string name="Photos_zero">没有照片</string>
+  <string name="Photos_one">一张照片</string>
+  <string name="Photos_two">两张照片</string>
+  <string name="Photos_few">%1$d 张照片</string>
+  <string name="Photos_many">%1$d 张照片</string>
+  <string name="Photos_other">%1$d 张照片</string>
   <!--forwarded messages-->
-  <string name="ForwardedMessage_zero">%1$d 条来自转发的消息</string>
+  <string name="ForwardedMessage_zero">无转发消息</string>
   <string name="ForwardedMessage_one">1 条来自转发的消息</string>
   <string name="ForwardedMessage_two">%1$d 条来自转发的消息</string>
   <string name="ForwardedMessage_few">%1$d 条来自转发的消息</string>
@@ -802,6 +824,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
   <!--update text-->
-  <string name="updateText">感谢您更新2.9版本的电报:）\n这一次，我们更新了：\n\n- 你可以安装和共享属于自己的大表情！就像这样：https://telegram.me/addstickers/Animals \n- 您可以当一回艺术家，创作属于你的大表情！ \n-关于这个更新的更多信息请访问：\ntelegram.org/blog/captions-places \n Telegram团队 Zh-CN Translate</string>
-  <string name="updateBuild">529</string>
+  <string name="updateText">Android 版的 Telegram 已更新。最新版本 2.10 的新增功能有：\n\n- 在图贴面板中，每个个性化的图贴集有自己专用的标签。添加个性化图贴集使用类似于这样的链接： https://telegram.me/addstickers/Animals\n- 免费、开放的新接口 API。如果您是开发人员，可以建立服务接口以提供游戏、服务、集成功能等。了解更多： https://telegram.org/blog/bot-revolution \n\n Telegram团队 Zh-CN Translate</string>
+  <string name="updateBuild">551</string>
 </resources>
