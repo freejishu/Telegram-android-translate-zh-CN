@@ -527,15 +527,15 @@
   <string name="SendingVideo">正在发送视频……</string>
   <string name="CompressVideo">压缩视频</string>
   <!--bot-->
-  <string name="Bot">接口</string>
+  <string name="Bot">机器人</string>
   <string name="BotShare">分享</string>
-  <string name="BotInvite">加入群组</string>
+  <string name="BotInvite">拉入群组</string>
   <string name="BotSettings">设置</string>
-  <string name="BotHelp">帮助</string>
-  <string name="BotStatusRead">具有读取消息权限</string>
-  <string name="BotStatusCantRead">没有读取消息权限</string>
-  <string name="BotInfoTitle">本接口作用</string>
-  <string name="BotStart">开始</string>
+  <string name="BotHelp">机器人帮助</string>
+  <string name="BotStatusRead">允许读取消息</string>
+  <string name="BotStatusCantRead">不允许读取消息</string>
+  <string name="BotInfoTitle">这个机器人的作用：</string>
+  <string name="BotStart">开始交流</string>
   <!--button titles-->
   <string name="Next">下一步</string>
   <string name="Back">返回</string>
