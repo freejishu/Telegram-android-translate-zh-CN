@@ -62,6 +62,11 @@
   <string name="YouCreatedBroadcastList">您创建了一个广播名单</string>
   <string name="AddRecipient">添加接收人</string>
   <string name="KickFromBroadcast">从广播名单中移除</string>
+  <!--audio view-->
+  <string name="NoAudio">您的音乐库里似乎还没有音乐。您可以从电脑上或者其他手机App获得音乐，这个时候这首歌便会出现在这里。</string>
+  <string name="AttachMusic">音乐</string>
+  <string name="AudioUnknownArtist">未知艺术家</string>
+  <string name="AudioUnknownTitle">未知歌曲名字</string>
   <!--documents view-->
   <string name="SelectFile">选择文件</string>
   <string name="FreeOfTotal">%1$s / %2$s</string>
@@ -116,6 +121,7 @@
   <string name="YouLeft">您已经离开该群组</string>
   <string name="DeleteThisGroup">删除该群组</string>
   <string name="DeleteThisChat">删除此次对话</string>
+  <string name="SlideToCancel">滑动取消</string>
   <string name="SlideToCancel">滑动以取消</string>
   <string name="SaveToDownloads">保存到下载</string>
   <string name="ShareFile">分享</string>
@@ -344,6 +350,7 @@
   <string name="RepeatDisabled">关闭</string>
   <string name="InChatSound">聊天中的声音</string>
   <string name="SoundDefault">默认</string>
+  <string name="VibrationDefault">默认</string>
   <string name="SmartNotifications">智能通知</string>
   <string name="SmartNotificationsDisabled">不通知</string>
   <string name="SmartNotificationsInfo">在%2$s 使用最大声音 %1$s </string>
@@ -352,7 +359,7 @@
   <string name="SmartNotificationsWithin">在</string>
   <string name="SmartNotificationsMinutes">分钟</string>
   <!--sessions view-->
-<string name="SessionsTitle">在线会话</string> 
+  <string name="SessionsTitle">在线会话</string> 
   <string name="CurrentSession">当前会话</string> 
   <string name="NoOtherSessions">没有其他在线的会话</string> 
   <string name="NoOtherSessionsInfo">你可以用相同的电话号码在手机，平板电脑，桌面设备登录到Telegram，然后你所有的数据将会被立即同步。</string> 
@@ -824,6 +831,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
   <!--update text-->
-  <string name="updateText">Android 版的 Telegram 已更新。最新版本 2.10 的新增功能有：\n\n- 在图贴面板中，每个个性化的图贴集有自己专用的标签。添加个性化图贴集使用类似于这样的链接： https://telegram.me/addstickers/Animals\n- 免费、开放的新接口 API。如果您是开发人员，可以建立服务接口以提供游戏、服务、集成功能等。了解更多： https://telegram.org/blog/bot-revolution \n\n Telegram团队 Zh-CN Translate</string>
-  <string name="updateBuild">551</string>
+  <string name="updateText">Android 版的 Telegram 已更新。最新版本 3.1 的新增功能有：\n\n- 搜索特定聊天中的信息 \n - 我们重新设计了附件菜单，您可以直接从附件菜单内直接发送——而且操作简便 \n- 改进了视频网站的视频播放机制(YouTube, Vimoe, Soundcloud etc.) \n - 了解更多： https//telegram.org/blog/search-and-media \n\n Telegram团队 Zh-CN Translate</string>
+  <string name="updateBuild">577</string>
 </resources>
