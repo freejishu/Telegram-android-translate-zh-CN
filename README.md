@@ -1,6 +1,9 @@
 # Telegram-android-translate-zh-CN
 E-Mail：i@freejishu.com
 
+2016-10-04
+因个人学业问题以及已经有较好的替代，本项目停止更新。
+
 2015-05-24 What's New:
 1、Telegram版本升级为2.9.1；
 2、补充了部分智能提醒时的大表情翻译；
